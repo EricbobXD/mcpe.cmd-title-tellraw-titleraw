@@ -1,1 +1,1 @@
-# mcpe.cmd-title-titleraw
+For bedrock use.
