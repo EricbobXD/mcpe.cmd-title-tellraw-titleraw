@@ -182,9 +182,9 @@
           showElement = examples.join(',');
         }
         if (commandType === "titleraw") {
-          command = `/titleraw ${selector} {"rawtext":[${showElement}]}`;
+          command = `/titleraw ${selector} {"rawtext":[${show-element}]}`;
         } else {
-          command = `/tellraw ${selector} {"rawtext":[${showElement}]}`;
+          command = `/tellraw ${selector} {"rawtext":[${show-element}]}`;
         }
       }
 
@@ -193,7 +193,7 @@
     }
 
     function clearFields() {
-      document.getElementById("selector").value = "@a";
+      document.getElementById("selector").value = "";
       document.getElementById("command-type").value = "";
       document.getElementById("title-type").value = "title";
       document.getElementById("show-element").value = "";
