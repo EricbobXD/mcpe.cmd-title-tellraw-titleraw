@@ -178,13 +178,10 @@
           command = `/title ${selector} ${titleType} ${titleText}`;
         }
       } else {
-        if (examples.length > 0) {
-          showElement = examples.join(',');
-        }
         if (commandType === "titleraw") {
-          command = `/titleraw ${selector} {"rawtext":[${show-element}]}`;
+          command = `/titleraw ${selector} {"rawtext":[${showElement}]}`;
         } else {
-          command = `/tellraw ${selector} {"rawtext":[${show-element}]}`;
+          command = `/tellraw ${selector} {"rawtext":[${showElement}]}`;
         }
       }
 
