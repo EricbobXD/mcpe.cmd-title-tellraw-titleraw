@@ -15,7 +15,7 @@
    - `title`
    - `titleraw`
    - `tellraw`
-   若選擇 `title` 指令時，選擇顯示樣式：
+   -- 若選擇 `title` 指令時，選擇顯示樣式：
    - `title`（主標題）
    - `subtitle`（副標題）
    - `actionbar`（動作條）
