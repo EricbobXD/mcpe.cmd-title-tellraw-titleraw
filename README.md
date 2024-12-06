@@ -15,8 +15,8 @@
    - `title`
    - `titleraw`
    - `tellraw`
-3.若選擇 `title` 指令時，選擇顯示樣式(若不是請跳過)：
-   - `title`（主標題）
+   若選擇 `title` 指令時，選擇以下顯示樣式(若不是請跳過)：
+   -  `title`（主標題）
    - `subtitle`（副標題）
    - `actionbar`（動作條）
 4. 根據範例輸入你想要的內容。
